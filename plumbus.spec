@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name: plumbus
-Version: 1.0.1
+Version: 1.0.2
 Release: 1%{?dist}
 License: MIT
 Summary: Copy to your clipboard using a plumbus
@@ -34,6 +34,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/%{name}
 
 %changelog
+* Fri Sep 16 2022 egg <egg95@protonmail.com> 1.0.2-1
+- changelog barfed (egg95@protonmail.com)
+
+* Fri Sep 16 2022 egg <egg95@protonmail.com>
+- changelog barfed (egg95@protonmail.com)
+
 * Fri Sep 16 2022 egg <egg95@protonmail.com>
 - initial build
 
