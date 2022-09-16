@@ -5,7 +5,7 @@ edition = "2021"
 license = "MIT"
 description = "Copy to your clipboard using a plumbus"
 readme = "README.md"
-repository = ""
+repository = "https://github.com/Radical-Egg/plumbus"
 
 [dependencies]
 clipboard = "0.5.0"
