@@ -33,7 +33,10 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %{_bindir}/%{name}
 
-%changelog* Fri Sep 16 2022 egg <egg95@protonmail.com>
+%changelog
+* Fri Sep 16 2022 egg <egg95@protonmail.com>
+- initial build
+
 * Fri Sep 16 2022 egg <egg95@protonmail.com> 1.0.1-1
 - updated build deps (egg95@protonmail.com)
 
