@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name: plumbus
-Version: 1.0.0
+Version: 1.0.1
 Release: 1%{?dist}
 License: MIT
 Summary: Copy to your clipboard using a plumbus
@@ -10,7 +10,7 @@ Summary: Copy to your clipboard using a plumbus
 # cd plumbus && tito build --tgz
 Source0: %{name}-%{version}.tar.gz
 
-BuildRequires: rust cargo python3
+BuildRequires: rust cargo python3 libxcb libxcb-devel
 
 %description
 Copy to your clipboard using a plumbus
