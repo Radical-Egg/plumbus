@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name: plumbus
-Version: 1.0.0
+Version: 1.0.2
 Release: 1%{?dist}
 License: MIT
 Summary: Copy to your clipboard using a plumbus
