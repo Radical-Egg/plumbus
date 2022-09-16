@@ -34,5 +34,8 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/%{name}
 
 %changelog* Fri Sep 16 2022 egg <egg95@protonmail.com>
+* Fri Sep 16 2022 egg <egg95@protonmail.com>
+- updated readme and builds deps (egg95@protonmail.com)
+
 - new package built with tito
 
