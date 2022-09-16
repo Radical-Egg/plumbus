@@ -1,0 +1,19 @@
+[package]
+name = "plumbus"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+description = "Copy to your clipboard using a plumbus"
+readme = "README.md"
+repository = ""
+
+[dependencies]
+clipboard = "0.5.0"
+
+[[bin]]
+name = "plumbus"
+path = "src/main.rs"
+
+[profile.release]
+strip = true
+lto = true
