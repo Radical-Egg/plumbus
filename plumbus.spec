@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name: plumbus
-Version: 1.0.2
+Version: 1.0.0
 Release: 1%{?dist}
 License: MIT
 Summary: Copy to your clipboard using a plumbus
@@ -34,6 +34,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/%{name}
 
 %changelog* Fri Sep 16 2022 egg <egg95@protonmail.com>
+* Fri Sep 16 2022 egg <egg95@protonmail.com> 1.0.0-1
+- new package built with tito
+
 * Fri Sep 16 2022 egg <egg95@protonmail.com>
 - updated readme and builds deps (egg95@protonmail.com)
 
