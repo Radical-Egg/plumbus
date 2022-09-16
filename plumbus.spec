@@ -10,7 +10,7 @@ Summary: Copy to your clipboard using a plumbus
 # cd plumbus && tito build --tgz
 Source0: %{name}-%{version}.tar.gz
 
-BuildRequires: rust cargo
+BuildRequires: rust cargo python3
 
 %description
 Copy to your clipboard using a plumbus

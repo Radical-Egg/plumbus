@@ -9,6 +9,18 @@ Copy the output of a command to your clipboard
 echo "Woah thats pretty cool!" | plumbus
 ```
 
+## Install with copr
+```bash
+sudo dnf copr enable egg95/plumbus
+sudo dnf install plumbus
+```
+
+## Build
+```bash
+git clone https://github.com/Radical-Egg/plumbus.git
+cd plumbus && cargo build --release
+```
+
 ## Detailed Instructions
 
 First, you take the dinglepop, and you smooth it out with a bunch of schleem. The schleem is then repurposed for later batches.
