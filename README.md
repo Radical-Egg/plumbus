@@ -15,6 +15,13 @@ sudo dnf copr enable egg95/plumbus
 sudo dnf install plumbus
 ```
 
+## macOS
+
+```bash
+brew tap radical-egg/plumbus
+brew install plumbus
+```
+
 ## Build
 ```bash
 git clone https://github.com/Radical-Egg/plumbus.git
