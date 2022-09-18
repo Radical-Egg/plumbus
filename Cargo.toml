@@ -8,11 +8,17 @@ readme = "README.md"
 repository = "https://github.com/Radical-Egg/plumbus"
 
 [dependencies]
+atty = "0.2.14"
+clap = { version = "3.2.22", features = ["derive"] }
 clipboard = "0.5.0"
 
 [[bin]]
 name = "plumbus"
 path = "src/main.rs"
+
+[lib]
+name = "plumbus"
+path = "src/lib.rs"
 
 [profile.release]
 strip = true
