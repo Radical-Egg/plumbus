@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name: plumbus
-Version: 1.0.2
+Version: 1.0.4
 Release: 1%{?dist}
 License: MIT
 Summary: Copy to your clipboard using a plumbus
@@ -34,6 +34,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/%{name}
 
 %changelog
+* Sun Sep 18 2022 egg <egg95@protonmail.com> 1.0.4-1
+- updated main (egg95@protonmail.com)
+- added file copy function (egg95@protonmail.com)
+
 * Fri Sep 16 2022 egg <egg95@protonmail.com> 1.0.2-1
 - changelog barfed (egg95@protonmail.com)
 
