@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name: plumbus
-Version: 1.0.4
+Version: 1.0.5
 Release: 1%{?dist}
 License: MIT
 Summary: Copy to your clipboard using a plumbus
@@ -34,6 +34,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/%{name}
 
 %changelog
+* Wed Sep 21 2022 egg <egg95@protonmail.com> 1.0.5-1
+- bumped version number (luther.jaymen@gmail.com)
+- added verbose option and error prop (luther.jaymen@gmail.com)
+- Update README.md (45681670+Radical-Egg@users.noreply.github.com)
 * Sun Sep 18 2022 egg <egg95@protonmail.com> 1.0.4-1
 - updated main (egg95@protonmail.com)
 - added file copy function (egg95@protonmail.com)
