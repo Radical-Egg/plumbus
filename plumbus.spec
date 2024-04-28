@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name: plumbus
-Version: 1.1.1
+Version: 1.1.2
 Release: 1%{?dist}
 License: MIT
 Summary: Copy to your clipboard using a plumbus
@@ -34,6 +34,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/%{name}
 
 %changelog
+* Sun Apr 28 2024 egg <egg95@protonmail.com> 1.1.2-1
+- update tito.props to use mock builder (egg95@protonmail.com)
+
 * Sun Apr 28 2024 egg <egg95@protonmail.com> 1.1.1-1
 - 
 
