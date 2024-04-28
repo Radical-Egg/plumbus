@@ -1,6 +1,6 @@
-use atty::Stream;
 use clap::Parser;
 use plumbus;
+use std::io::IsTerminal;
 
 #[derive(Parser)]
 #[clap(author, version, about, long_about = None)]
@@ -25,7 +25,7 @@ struct Args {
 fn main() {
     let args = Args::parse();
 
-    if atty::is(Stream::Stdin) {
+    if std::io::stdin().is_terminal() {
         if args.file != String::new() {
             match plumbus::copy_file_clipboard(args.file).err() {
                 Some(err) => {
