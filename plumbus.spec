@@ -10,7 +10,7 @@ Summary: Copy to your clipboard using a plumbus
 # cd plumbus && tito build --tgz
 Source0: %{name}-%{version}.tar.gz
 
-BuildRequires: rust cargo python3 libxcb libxcb-devel
+BuildRequires: rust cargo>=1.74 python3 libxcb libxcb-devel
 
 %description
 Copy to your clipboard using a plumbus
@@ -34,6 +34,15 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/%{name}
 
 %changelog
+* Sun Apr 28 2024 egg <egg95@protonmail.com> 1.1.0-1
+- update rpm spec version (egg95@protonmail.com)
+- update metadata and xcb deps (egg95@protonmail.com)
+- fix rust edition (luther.jaymen@gmail.com)
+- update version in cargo.toml (luther.jaymen@gmail.com)
+- remove atty from package deps (luther.jaymen@gmail.com)
+- switch from atty to isTerminal (luther.jaymen@gmail.com)
+- upgrade clap to version 4.5.4 (luther.jaymen@gmail.com)
+
 * Wed Sep 21 2022 egg <egg95@protonmail.com> 1.0.5-1
 - bumped version number (luther.jaymen@gmail.com)
 - added verbose option and error prop (luther.jaymen@gmail.com)
