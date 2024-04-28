@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name: plumbus
-Version: 1.1.3
+Version: 1.2.0
 Release: 1%{?dist}
 License: MIT
 Summary: Copy to your clipboard using a plumbus
@@ -34,6 +34,11 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/%{name}
 
 %changelog
+* Sun Apr 28 2024 egg <egg95@protonmail.com> 1.2.0-1
+- update version in main.rs (egg95@protonmail.com)
+- convert clipboard to copypasta fork (egg95@protonmail.com)
+- remove cargo lock (egg95@protonmail.com)
+
 * Sun Apr 28 2024 egg <egg95@protonmail.com> 1.1.3-1
 - ensure networking is enabled with mock args (egg95@protonmail.com)
 
