@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name: plumbus
-Version: 1.1.0
+Version: 1.1.1
 Release: 1%{?dist}
 License: MIT
 Summary: Copy to your clipboard using a plumbus
@@ -10,7 +10,7 @@ Summary: Copy to your clipboard using a plumbus
 # cd plumbus && tito build --tgz
 Source0: %{name}-%{version}.tar.gz
 
-BuildRequires: rust cargo>=1.74 python3 libxcb libxcb-devel
+BuildRequires: rust cargo python3 libxcb libxcb-devel
 
 %description
 Copy to your clipboard using a plumbus
@@ -34,6 +34,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/%{name}
 
 %changelog
+* Sun Apr 28 2024 egg <egg95@protonmail.com> 1.1.1-1
+- 
+
 * Sun Apr 28 2024 egg <egg95@protonmail.com> 1.1.0-1
 - update rpm spec version (egg95@protonmail.com)
 - update metadata and xcb deps (egg95@protonmail.com)
