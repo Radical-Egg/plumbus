@@ -6,3 +6,4 @@ changelog_format = %s (%ae)
 
 [builder]
 mock = fedora-rawhide-x86_64
+mock_args = "--enable-network"
