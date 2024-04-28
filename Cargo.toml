@@ -9,7 +9,7 @@ repository = "https://github.com/Radical-Egg/plumbus"
 
 [dependencies]
 atty = "0.2.14"
-clap = { version = "3.2.22", features = ["derive"] }
+clap = { version = "4.5.4", features = ["derive"] }
 clipboard = "0.5.0"
 
 [[bin]]
