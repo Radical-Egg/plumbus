@@ -34,6 +34,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/%{name}
 
 %changelog
+* Sun Apr 28 2024 egg <egg95@protonmail.com> 1.2.0-1
+- new package built with tito
+
 * Sun Apr 28 2024 egg <egg95@protonmail.com> 1.2.1-1
 - remove macOS instructions until later release (egg95@protonmail.com)
 
