@@ -1,17 +1,11 @@
 [package]
 name = "plumbus"
-version = "1.2.1"
+version = "1.2.0"
 edition = "2021"
 license = "MIT"
 description = "Copy to your clipboard using a plumbus"
 readme = "README.md"
 repository = "https://github.com/Radical-Egg/plumbus"
-
-[package.metadata.generate-rpm]
-assets = [
-    { source = "target/release/plumbus", dest = "/usr/bin/plumbus", mode = "755", user = "root", group = "root" }
-]
-release = 1
 
 [dependencies]
 clap = { version = "4.5.4", features = ["derive"] }
