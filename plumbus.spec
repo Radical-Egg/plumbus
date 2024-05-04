@@ -2,7 +2,7 @@
 
 Name: plumbus
 Version: 1.2.0
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: MIT
 Summary: Copy to your clipboard using a plumbus
 
