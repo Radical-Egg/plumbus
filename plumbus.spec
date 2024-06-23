@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name: plumbus
-Version: 1.2.1
+Version: 1.2.2
 Release: 1%{?dist}
 License: MIT
 Summary: Copy to your clipboard using a plumbus
@@ -34,6 +34,14 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/%{name}
 
 %changelog
+* Sun Jun 23 2024 Radical Egg <egg95@protonmail.com> 1.2.2-1
+- fix version in main.rs, remove 1.2.1 changelog, need to re-release after
+  fixing copr build (egg95@protonmail.com)
+
+* Sun Jun 23 2024 Radical Egg <egg95@protonmail.com>
+- fix version in main.rs, remove 1.2.1 changelog, need to re-release after
+  fixing copr build (egg95@protonmail.com)
+
 * Sun Apr 28 2024 egg <egg95@protonmail.com> 1.1.3-1
 - ensure networking is enabled with mock args (egg95@protonmail.com)
 
