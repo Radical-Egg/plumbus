@@ -6,7 +6,7 @@ use std::io::IsTerminal;
 #[clap(author, version, about, long_about = None)]
 #[clap(name = "Plumbus")]
 #[clap(author = "R.Egg <egg95@protonmail.com>")]
-#[clap(version = "1.2.0")]
+#[clap(version = "1.2.1")]
 #[clap(about = "Copy the output of a command to your clipboard. 
 Use the --file option to copy the contents of a file
 

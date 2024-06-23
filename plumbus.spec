@@ -34,21 +34,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/%{name}
 
 %changelog
-* Fri May 03 2024 egg <egg95@protonmail.com> 1.2.1-1
-- update release (egg95@protonmail.com)
-- update args (egg95@protonmail.com)
-
-* Sun Apr 28 2024 egg <egg95@protonmail.com> 1.2.0-1
-- new package built with tito
-
-* Sun Apr 28 2024 egg <egg95@protonmail.com> 1.2.1-1
-- remove macOS instructions until later release (egg95@protonmail.com)
-
-* Sun Apr 28 2024 egg <egg95@protonmail.com> 1.2.0-1
-- update version in main.rs (egg95@protonmail.com)
-- convert clipboard to copypasta fork (egg95@protonmail.com)
-- remove cargo lock (egg95@protonmail.com)
-
 * Sun Apr 28 2024 egg <egg95@protonmail.com> 1.1.3-1
 - ensure networking is enabled with mock args (egg95@protonmail.com)
 
